@@ -1,0 +1,7 @@
+
+# binary artifacts
+**/*.bin
+
+# VASM
+
+**/vasm

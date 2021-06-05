@@ -1,0 +1,6 @@
+# Ben Eater's 6502 Build Along
+
+To Compile and Burn:
+../vasm/vasm6502_oldstyle -Fbin -dotdir blink.s
+hexdump -C a.out 
+minipro -p AT28C256 -w a.out
